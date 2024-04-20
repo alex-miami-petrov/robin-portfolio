@@ -1,8 +1,8 @@
 body {
-  font-family: ;
+  font-family: "Sen", sans-serif;
   font-style: normal;
-  background-color: ;
-  color: ;
+  background-color: #000;
+  color: #ffffff;
 }
 
 h1,
@@ -29,9 +29,9 @@ img {
 }
 
 .container {
-  width: ;
-  padding-left: ;
-  padding-right: ;
+  max-width: 360px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -46,10 +46,9 @@ ul {
 }
 
 .title {
-  font-weight: ;
-  font-size: ;
-  line-height: ;
-  color: ;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
 }
 
 button {
