@@ -154,18 +154,11 @@ button {
 
 /* PHILOSOFY */
 
-.phil-container {
-  padding-left: 0;
-  padding-right: 0;
-}
 .philosophy {
-  padding-top: 48px;
+  padding: 48px 0;
   background-color: #fff3e4;
 }
-.phil-title-wrap {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .phil-title {
   font-weight: 700;
   font-size: 32px;
@@ -186,13 +179,10 @@ button {
   border-bottom: 1px solid #5b6876;
   max-width: 116px;
   height: 0px;
-  margin-bottom: 48px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
-.phil-img {
-  margin-top: 40px;
+.phil-bg-image {
+  max-width: 360px;
 }
 
 /* SKILL */
@@ -296,15 +286,55 @@ button {
 }
 
 .work-wrap {
+  padding: 40px 32px;
+  background-color: #181823;
 }
 .work-dsc {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
+  margin-bottom: 13px;
 }
 .work-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #8491a0;
+}
+
+/* INSTAGRAM */
+
+.instagram {
+  padding: 48px 0;
+  background-color: #fbe4ff;
+}
+
+.insta-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #181823;
+  margin-bottom: 16px;
+}
+.insta-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #5b6876;
+  margin-bottom: 125px;
+}
+
+.insta-link {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #181823;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #181823;
+  border-bottom: 1px solid #5b6876;
+  max-width: 116px;
+  height: 0px;
+}
+
+.insta-bg-img {
+  max-width: 360px;
 }
