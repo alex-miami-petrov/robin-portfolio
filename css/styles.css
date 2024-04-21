@@ -58,13 +58,20 @@ button {
 /* HEADER */
 
 .header {
-  padding: 24px 0;
+  padding: 24px 20px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
 }
 .logo-link {
 }
 .logo-img {
 }
 .menu-open-btn {
+  background-color: #000;
+  border: none;
+  padding: 0;
 }
 .menu-open-icon {
 }
@@ -72,11 +79,55 @@ button {
 /* HERO */
 
 .hero {
-  padding-top: ;
-  padding-bottom: ;
+  padding-top: 0;
+  padding-bottom: 48px;
+  border: 0.1px;
+  border-bottom: 2px dashed #5b6876;
 }
 
-/*  */
+.hero-img {
+  margin-bottom: 48px;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.hero-span {
+  color: rgba(255, 255, 255, 0.5);
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*EXPERIENCE  */
+
+.experience {
+}
+.container {
+}
+.exp-title {
+}
+.exp-subtitle {
+}
+.exp-list {
+}
+.exp-item {
+}
+.exp-icon {
+}
+.exp-speciality {
+}
+.span-google {
+}
+.exp-text {
+}
+.span-fb {
+}
+.span-drib {
+}
 
 /*  */
 
