@@ -338,3 +338,52 @@ button {
 .insta-bg-img {
   max-width: 360px;
 }
+
+/* DRIBBBLE */
+
+.dribbble {
+  padding: 64px 0;
+}
+
+.drib-title {
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 24px;
+}
+.drib-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #8491a0;
+  margin-bottom: 40px;
+}
+.drib-link {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  border-bottom: 1px solid #5b6876;
+  max-width: 116px;
+  height: 0px;
+}
+.drib-bg-img {
+}
+.drib-btn {
+  border-radius: 8px 8px 0 0;
+  min-width: 320px;
+  height: 36px;
+  background-color: #181823;
+  display: flex;
+  justify-content: start;
+  border: none;
+  padding: 0;
+}
+.drib-btn-icon {
+  fill: #5b6876;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  height: 48px;
+}
+.drib-img {
+}
