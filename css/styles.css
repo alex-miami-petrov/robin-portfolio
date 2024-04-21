@@ -154,11 +154,6 @@ button {
 
 /* PHILOSOFY */
 
-.phil-wrap {
-  /* display: flex;
-  flex-direction: column; */
-}
-
 .phil-container {
   padding-left: 0;
   padding-right: 0;
@@ -170,7 +165,6 @@ button {
 .phil-title-wrap {
   padding-left: 20px;
   padding-right: 20px;
-  /* margin-bottom: auto; */
 }
 .phil-title {
   font-weight: 700;
@@ -207,6 +201,16 @@ button {
   padding-top: 78px;
 }
 
+.skill-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.skill-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .skill-title {
   font-weight: 700;
   font-size: 32px;
@@ -224,18 +228,41 @@ button {
   flex-wrap: wrap;
   gap: 48px;
 }
-.skill-item {
+.skill-list:last-child {
+  /* margin-bottom: 64px; */
+}
+.skill-item:last-child {
+  margin-bottom: 64px;
 }
 .skill-icon {
   fill: #5221e6;
+  margin-bottom: 24px;
 }
+
 .skill-subtitle {
+  margin-bottom: 12px;
 }
 .skill-text {
+  font-weight: 400;
+
+  line-height: 1.5;
+  color: #8491a0;
 }
-.skill-img-list {
+.skill-comp-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.skill-img-item {
+.skill-comp-item {
 }
-.skill-img {
+.skill-comp-btn {
+  border: 0.5px solid #8491a0;
+  border-left: none;
+  width: 180px;
+  height: 140px;
+  background-color: #000;
+}
+.skill-comp-icon {
+  fill: #8491a0;
 }
