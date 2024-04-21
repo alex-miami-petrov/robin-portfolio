@@ -153,12 +153,18 @@ button {
 }
 
 /* PHILOSOFY */
-
+.phil-container {
+  padding-left: 0;
+  padding-right: 0;
+}
 .philosophy {
   padding-top: 48px;
   background-color: #fff3e4;
 }
-
+.phil-title-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .phil-title {
   font-weight: 700;
   font-size: 32px;
@@ -177,12 +183,15 @@ button {
   line-height: 1.5;
   color: #181823;
   border-bottom: 1px solid #5b6876;
-  width: 116px;
+  max-width: 116px;
   height: 0px;
   margin-bottom: 48px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .phil-img {
+  margin-top: 40px;
 }
 
 /*  */
