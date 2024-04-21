@@ -266,3 +266,45 @@ button {
 .skill-comp-icon {
   fill: #8491a0;
 }
+
+/* WORK */
+
+.work {
+  padding-top: 64px;
+  padding-bottom: 70px;
+}
+
+.work-title {
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #8491a0;
+}
+.work-subtitle {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.work-item {
+}
+.work-img {
+}
+
+.work-wrap {
+}
+.work-dsc {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.work-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #8491a0;
+}
