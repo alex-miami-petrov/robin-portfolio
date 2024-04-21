@@ -57,6 +57,18 @@ button {
 
 /* HEADER */
 
+.header {
+  padding: 24px 0;
+}
+.logo-link {
+}
+.logo-img {
+}
+.menu-open-btn {
+}
+.menu-open-icon {
+}
+
 /* HERO */
 
 .hero {
