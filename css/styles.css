@@ -632,7 +632,11 @@ button {
   }
 
   .header {
-    padding: 32px 0;
+    padding: 0;
+  }
+
+  .logo-link {
+    padding-top: 32px;
   }
 
   .nav-list {
@@ -647,13 +651,17 @@ button {
     color: #fff;
   }
 
+  .nav-item {
+    padding-top: 32px;
+  }
+
   .nav-item:last-child {
     background-color: #5221e6;
     justify-content: center;
     align-items: center;
-
-    /* width: 109px;
-    height: 88px; */
+    padding: 32px 24px;
+    width: 109px;
+    height: 88px;
   }
 
   .menu-open-btn {
@@ -666,6 +674,10 @@ button {
     border-bottom: none;
   }
 
+  .hero-container {
+    padding-left: 0;
+  }
+
   .hero-img {
     position: relative;
     margin-bottom: 0;
@@ -673,8 +685,8 @@ button {
 
   .hero-text-wrap {
     position: absolute;
-    top: 26%;
-    left: 43%;
+    top: 21%;
+    left: 39%;
   }
 
   .hero-title {
@@ -682,6 +694,10 @@ button {
     font-size: 56px;
     margin-bottom: 32px;
     max-width: 300px;
+  }
+
+  .hero-span {
+    min-width: 800px;
   }
 
   .hero-text {
