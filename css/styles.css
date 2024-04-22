@@ -686,14 +686,14 @@ button {
   .hero-text-wrap {
     position: absolute;
     top: 21%;
-    left: 39%;
+    left: 40%;
   }
 
   .hero-title {
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 32px;
-    width: 300px;
+    width: 404px;
   }
 
   .hero-text {
