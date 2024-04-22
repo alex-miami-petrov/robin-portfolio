@@ -693,15 +693,20 @@ button {
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 32px;
-    max-width: 300px;
-  }
-
-  .hero-span {
-    min-width: 800px;
+    width: 300px;
   }
 
   .hero-text {
     max-width: 408px;
+  }
+
+  .experience {
+    padding: 80px 0;
+  }
+
+  .exp-subtitle {
+    font-size: 55px;
+    max-width: 688px;
   }
 }
 
@@ -719,6 +724,10 @@ button {
 
   .nav-list {
     display: flex;
+  }
+
+  .hero {
+    border-bottom: none;
   }
 
   .hero-title {
