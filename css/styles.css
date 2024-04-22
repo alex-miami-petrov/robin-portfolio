@@ -677,4 +677,13 @@ button {
   .nav-list {
     display: flex;
   }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 84px;
+  }
+
+  .hero-img {
+    margin-bottom: 0;
+  }
 }
