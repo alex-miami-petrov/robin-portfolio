@@ -637,15 +637,14 @@ button {
 
   .nav-list {
     display: flex;
+    gap: 48px;
   }
 
-  .nav-btn {
+  .nav-link {
+    display: flex;
     font-weight: 400;
     line-height: 1.5;
     color: #fff;
-    padding: 0 24px;
-    background-color: transparent;
-    border: none;
   }
 
   .nav-item:last-child {
@@ -653,12 +652,40 @@ button {
     justify-content: center;
     align-items: center;
 
-    width: 109px;
-    height: 88px;
+    /* width: 109px;
+    height: 88px; */
   }
 
   .menu-open-btn {
     display: none;
+  }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 84px;
+    border-bottom: none;
+  }
+
+  .hero-img {
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .hero-text-wrap {
+    position: absolute;
+    top: 26%;
+    left: 43%;
+  }
+
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 32px;
+    max-width: 300px;
+  }
+
+  .hero-text {
+    max-width: 408px;
   }
 }
 
@@ -678,12 +705,7 @@ button {
     display: flex;
   }
 
-  .hero {
-    padding-top: 80px;
-    padding-bottom: 84px;
-  }
-
-  .hero-img {
-    margin-bottom: 0;
+  .hero-title {
+    font-size: 78px;
   }
 }
