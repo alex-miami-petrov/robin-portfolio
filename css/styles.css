@@ -306,6 +306,10 @@ button {
   color: #8491a0;
 }
 
+.work-link-btn {
+  display: none;
+}
+
 /* INSTAGRAM */
 
 .instagram {
@@ -796,7 +800,13 @@ button {
   .work-subtitle {
     font-size: 55px;
   }
+
+  .work-text {
+    width: 620px;
+  }
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 1440px) {
   .container {
@@ -929,15 +939,42 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow-x: auto;
-  }
-
-  .skill-comp-btn {
-    overflow-x: auto;
   }
 
   .work {
     padding-top: 120px;
     padding-bottom: 153px;
+  }
+
+  .work-subtitle {
+    width: 572px;
+  }
+
+  .work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .work-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .work-text {
+    width: 572px;
+  }
+
+  .work-link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    border: 1px solid #5221e6;
+    padding: 24px 32px;
+    width: 248px;
+    height: 75px;
   }
 }
