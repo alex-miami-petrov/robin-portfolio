@@ -710,6 +710,22 @@ button {
     font-size: 55px;
     max-width: 688px;
   }
+
+  .exp-list {
+    display: flex;
+    flex-direction: row;
+    width: calc((100% - 48px) / 3);
+    gap: 40px;
+  }
+
+  .exp-text {
+    width: 197px;
+    color: #8491a0;
+  }
+
+  .exp-item:last-child {
+    gap: 42px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -721,11 +737,30 @@ button {
   }
 
   .header {
-    padding: 32px 72px;
+    padding: 0;
+
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 38%,
+      rgba(24, 24, 35, 1) 38%
+    );
   }
 
   .nav-list {
     display: flex;
+  }
+
+  .hero-container {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+
+  .hero {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 38%,
+      rgba(24, 24, 35, 1) 38%
+    );
   }
 
   .hero-img {
@@ -734,9 +769,15 @@ button {
     width: 750px;
   }
 
+  .hero-text-wrap {
+    position: absolute;
+    top: 26%;
+    left: 45%;
+  }
+
   .hero-title {
     font-size: 78px;
-    max-width: 738px;
+    width: 738px;
   }
 
   .hero-text {
@@ -745,5 +786,23 @@ button {
 
   .experience {
     padding: 120px 0;
+    max-width: 1920px;
+  }
+
+  .exp-subtitle {
+    max-width: 690px;
+  }
+
+  .exp-list {
+    width: calc((100% - 48px) / 3);
+    gap: 72px;
+  }
+
+  .exp-item:last-child {
+    gap: 72px;
+  }
+
+  .exp-text {
+    width: 368px;
   }
 }
