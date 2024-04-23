@@ -676,17 +676,19 @@ button {
 
   .hero-container {
     padding-left: 0;
+    padding-right: 40px;
   }
 
   .hero-img {
     position: relative;
     margin-bottom: 0;
+    width: 384px;
   }
 
   .hero-text-wrap {
     position: absolute;
-    top: 21%;
-    left: 40%;
+    top: 22%;
+    left: 42%;
   }
 
   .hero-title {
@@ -726,11 +728,22 @@ button {
     display: flex;
   }
 
-  .hero {
-    border-bottom: none;
+  .hero-img {
+    position: relative;
+    margin-bottom: 0;
+    width: 750px;
   }
 
   .hero-title {
     font-size: 78px;
+    max-width: 738px;
+  }
+
+  .hero-text {
+    max-width: 738px;
+  }
+
+  .experience {
+    padding: 120px 0;
   }
 }
