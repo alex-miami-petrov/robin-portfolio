@@ -726,6 +726,29 @@ button {
   .exp-item:last-child {
     gap: 42px;
   }
+
+  .philosophy {
+    padding: 80px 0;
+    background-image: url(../images/phil-768.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+
+  .phil-title {
+    font-size: 55px;
+    max-width: 304px;
+  }
+
+  .phil-text {
+    max-width: 304px;
+  }
+
+  /* .phil-bg-image {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  } */
 }
 
 @media screen and (min-width: 1440px) {
@@ -756,6 +779,7 @@ button {
   }
 
   .hero {
+    border-bottom: 2px dashed #5b6876;
     background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 1) 38%,
@@ -804,5 +828,17 @@ button {
 
   .exp-text {
     width: 368px;
+  }
+
+  .philosophy {
+    padding: 120px 0;
+  }
+
+  .phil-title {
+    max-width: 529px;
+  }
+
+  .phil-text {
+    max-width: 576px;
   }
 }
