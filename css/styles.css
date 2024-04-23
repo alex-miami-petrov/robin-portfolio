@@ -964,9 +964,9 @@ button {
     gap: 24px;
   }
 
-  .work-item {
+  /* .work-item {
     width: calc((100% - 24px) / 2);
-  }
+  } */
 
   .work-text {
     width: 572px;
@@ -992,7 +992,7 @@ button {
   }
 
   .work-item {
-    width: 683px;
+    width: 636px;
   }
 
   .work-1-container {
@@ -1003,12 +1003,12 @@ button {
   .work-2-container {
     position: absolute;
     transform: translate(-50%, -30%);
-    left: 78%;
+    left: 73%;
   }
 
   .work-4-container {
     position: absolute;
     transform: translate(-50%, 73%);
-    left: 78%;
+    left: 73%;
   }
 }
