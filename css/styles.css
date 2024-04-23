@@ -946,6 +946,14 @@ button {
     padding-bottom: 153px;
   }
 
+  .work-container {
+  }
+
+  /* .work-wrap {
+    display: flex;
+    flex-direction: column;
+  } */
+
   .work-subtitle {
     width: 572px;
   }
@@ -976,5 +984,31 @@ button {
     padding: 24px 32px;
     width: 248px;
     height: 75px;
+  }
+
+  .work-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work-item {
+    width: 683px;
+  }
+
+  .work-1-container {
+    display: flex;
+    position: relative;
+  }
+
+  .work-2-container {
+    position: absolute;
+    transform: translate(-50%, -30%);
+    left: 78%;
+  }
+
+  .work-4-container {
+    position: absolute;
+    transform: translate(-50%, 73%);
+    left: 78%;
   }
 }
