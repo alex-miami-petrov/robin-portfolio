@@ -224,9 +224,7 @@ button {
   flex-wrap: wrap;
   gap: 48px;
 }
-.skill-list:last-child {
-  /* margin-bottom: 64px; */
-}
+
 .skill-item:last-child {
   margin-bottom: 64px;
 }
@@ -744,11 +742,60 @@ button {
     max-width: 304px;
   }
 
-  /* .phil-bg-image {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  } */
+  .phil-bg-image {
+    display: none;
+  }
+
+  .skill {
+    padding-top: 80px;
+  }
+
+  .skill-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .skill-wrap {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .skill-title {
+    font-size: 55px;
+    margin-bottom: 24px;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin-bottom: 24px;
+  }
+
+  .skill-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .skill-comp-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-comp-item {
+    width: calc((100% - 0px) / 2);
+  }
+
+  .skill-comp-btn {
+    border: 1px solid #181823;
+    width: 384px;
+    height: 140px;
+  }
+
+  .work-subtitle {
+    font-size: 55px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -832,6 +879,8 @@ button {
 
   .philosophy {
     padding: 120px 0;
+    background-image: url(../images/phil-1440.jpg);
+    background-size: 720px 600px;
   }
 
   .phil-title {
@@ -840,5 +889,55 @@ button {
 
   .phil-text {
     max-width: 576px;
+  }
+
+  .skill-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .skill {
+    padding-top: 120px;
+  }
+
+  .skill-wrap {
+    padding: 0 72px;
+    display: flex;
+  }
+
+  .skill-title-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-right: 72px;
+  }
+
+  .title-text {
+    width: 368px;
+  }
+
+  .skill-text {
+    max-width: 368px;
+  }
+
+  .skill-comp-item {
+    width: 100%;
+  }
+
+  .skill-comp-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .skill-comp-btn {
+    overflow-x: auto;
+  }
+
+  .work {
+    padding-top: 120px;
+    padding-bottom: 153px;
   }
 }
