@@ -917,6 +917,10 @@ button {
     width: 332px;
   }
 
+  .started-btn {
+    min-width: 332px;
+  }
+
   .footer {
     padding-top: 80px;
     padding-bottom: 56px;
