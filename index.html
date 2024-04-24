@@ -538,7 +538,7 @@
                 media="(min-width: 360px)"
               />
               <source
-                srcset="./images/drib-1440.jpg 1x, ./images/drib-1440-2x.jpg 2x"
+                srcset="./images/ 1x, ./images/drib-1440-2x.jpg 2x"
                 media="(min-width: 1440px)"
               />
               <source
@@ -877,13 +877,17 @@
         </div>
       </section>
       <section class="started">
-        <div class="container">
-          <p class="started-title">Let’s get started</p>
+        <div class="container started-container">
+          <div class="started-wrap">
+            <div class="started-title-wrap">
+            <p class="started-title">Let’s get started</p>
           <p class="started-text">
             Now that you know a lot about me, let me know if you are interested
             to work with me.
           </p>
-          <form class="started-form">
+          </div>
+          <div class="started-form-wrap">
+            <form class="started-form">
             <div class="form-field">
               <label for="user-name" class="started-label">Name</label>
               <input
@@ -915,12 +919,18 @@
 
             <button type="submit" class="started-btn">Let’s get started</button>
           </form>
+          </div>
+          </div>
+          
+          
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a href="" class="footer-logo"
+      <div class="container ftr-container">
+        <div class="footer-wrap">
+          <div class="ftr-logo-wrap">
+          <a href="" class="footer-logo"
           ><img src="./images/logo.png" alt="logo" width="131" height="40"
         /></a>
         <ul class="soc-list">
@@ -940,9 +950,13 @@
             </svg>
           </li>
         </ul>
+        </div>
+        
         <nav class="footer-nav">
-          <ul class="ftr-nav-list">
-            <li class="ftr-nav-item">
+          
+            <div class="ftr-menu-wrap">
+              <ul class="ftr-menu-one">
+              <li class="ftr-nav-item">
               <a href="" class="ftr-nav-link">Home</a>
             </li>
             <li class="ftr-nav-item">
@@ -954,7 +968,9 @@
             <li class="ftr-nav-item">
               <a href="" class="ftr-nav-link">Process</a>
             </li>
-            <li class="ftr-nav-item">
+            </ul>
+            <ul class="ftr-menu-two">
+              <li class="ftr-nav-item">
               <a href="" class="ftr-nav-link">Store</a>
             </li>
             <li class="ftr-nav-item">
@@ -963,8 +979,14 @@
             <li class="ftr-nav-item">
               <a href="" class="ftr-nav-link">Reading List</a>
             </li>
-          </ul>
+            </ul>
+            </div>
+            
+            
+          
         </nav>
+        </div>
+        
         <p class="copyright">
           Not Copyright 2020 • Robin Williams. Webflow cloneable
         </p>
