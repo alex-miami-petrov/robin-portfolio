@@ -855,11 +855,16 @@ button {
     max-width: 269px;
   }
 
-  .review-wrap {
-    /* display: flex;
+  /* .review-list {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  /* .review-wrap {
+    display: flex;
     flex-direction: row;
-    flex-wrap: wrap; */
-  }
+    
+  } */
 }
 
 /* DESKTOP */
