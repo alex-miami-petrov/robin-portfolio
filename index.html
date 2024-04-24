@@ -492,13 +492,30 @@
               <use href="./images/icons.svg#icon-drib-point"></use>
             </svg>
           </button>
-          <img
-            src="./images/drib-360.jpg"
-            alt="dribbble"
-            width="332"
-            height="480"
-            class="drib-img"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/work-4-1440.jpg    1x,
+                ./images/work-4-1440-2x.jpg 2x
+              "
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="./images/work-4-768.jpg 1x, ./images/work-4-768-2x.jpg 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./images/work-4-360.jpg 1x, ./images/work-4-360-2x.jpg 2x"
+              media="(min-width: 360px)"
+            />
+            <img
+              src="./images/drib-360.jpg"
+              alt="dribbble"
+              width="332"
+              height="480"
+              class="drib-img"
+            />
+          </picture>
         </div>
       </section>
       <section class="reviews">
