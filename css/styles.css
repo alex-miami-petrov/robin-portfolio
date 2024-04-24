@@ -825,8 +825,16 @@ button {
     display: none;
   }
 
+  .drib-bg-img {
+    display: none;
+  }
+
+  .dribbble {
+    padding: 80px 0;
+  }
+
   .drib-btn {
-    width: 332px;
+    width: 688px;
   }
 }
 
@@ -1021,6 +1029,10 @@ button {
     width: 636px;
   }
 
+  .work-img {
+    height: 620px;
+  }
+
   .work-1-container {
     display: flex;
     position: relative;
@@ -1049,5 +1061,17 @@ button {
 
   .insta-text {
     max-width: 576px;
+  }
+
+  .dribbble {
+    padding: 120px 0;
+  }
+
+  .drib-container {
+    max-width: 1076px;
+  }
+
+  .drib-btn {
+    width: 932px;
   }
 }

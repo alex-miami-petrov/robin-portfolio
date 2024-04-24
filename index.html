@@ -476,17 +476,13 @@
         <img src="./images/phil-img-360.jpg" alt="" class="insta-bg-img" />
       </section>
       <section class="dribbble">
-        <div class="container">
+        <div class="container drib-container">
           <h2 class="drib-title">Dribbble</h2>
           <p class="drib-text">
             Each dribbble shot is made with love and care. Do check out my work
             on Dribbble. Likes and comments are appreciated.
           </p>
           <a href="" class="drib-link">Follow me on Dribbble</a>
-        </div>
-      </section>
-      <section class="drib-bg-img">
-        <div class="container">
           <button type="button" class="drib-btn">
             <svg class="drib-btn-icon" width="58" height="58">
               <use href="./images/icons.svg#icon-drib-point"></use>
@@ -494,28 +490,36 @@
           </button>
           <picture>
             <source
-              srcset="
-                ./images/work-4-1440.jpg    1x,
-                ./images/work-4-1440-2x.jpg 2x
-              "
+              srcset="./images/drib-1440.jpg 1x, ./images/drib-1440-2x.jpg 2x"
               media="(min-width: 1440px)"
             />
             <source
-              srcset="./images/work-4-768.jpg 1x, ./images/work-4-768-2x.jpg 2x"
+              srcset="./images/drib-768.jpg 1x, ./images/drib-768-2x.jpg 2x"
               media="(min-width: 768px)"
             />
             <source
-              srcset="./images/work-4-360.jpg 1x, ./images/work-4-360-2x.jpg 2x"
+              srcset="./images/drib-360.jpg 1x, ./images/drib-360-2x.jpg 2x"
               media="(min-width: 360px)"
             />
             <img
               src="./images/drib-360.jpg"
               alt="dribbble"
-              width="332"
-              height="480"
+              width="1076"
+              height="640"
               class="drib-img"
             />
           </picture>
+        </div>
+      </section>
+      <section class="drib-bg-img">
+        <div class="container">
+          <img
+            src="./images/drib-360.jpg"
+            alt="dribbble"
+            width="1076"
+            height="640"
+            class="drib-img"
+          />
         </div>
       </section>
       <section class="reviews">
