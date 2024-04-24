@@ -896,6 +896,10 @@ button {
     max-width: 689px;
   }
 
+  .photo-img-list {
+    justify-content: center;
+  }
+
   .started {
     padding: 80px 0;
   }
