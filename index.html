@@ -154,19 +154,18 @@
       </section>
       <section class="phil-bg-image">
         <picture>
-            <source
-              srcset="./images/phil-img-360.jpg 1x, ./images/phil-360-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-         <img
-          src="./images/phil-img-360.jpg"
-          width="360"
-          height="450"
-          alt="hand"
-          class="phil-bg-img"
-        />
+          <source
+            srcset="./images/phil-img-360.jpg 1x, ./images/phil-360-2x.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <img
+            src="./images/phil-img-360.jpg"
+            width="360"
+            height="450"
+            alt="hand"
+            class="phil-bg-img"
+          />
         </picture>
-       
       </section>
       <section class="skill">
         <div class="container skill-container">
@@ -468,8 +467,9 @@
         </div>
       </section>
       <section class="instagram">
-        <div class="container">
-          <h2 class="insta-title">Instagram</h2>
+        <div class="container insta-container">
+          <div class="insta-wrap">
+            <h2 class="insta-title">Instagram</h2>
           <p class="insta-text">
             If you area a person who enjoys photography, then I highly recommend
             that you check out my Instagram. I’m an avid traveller and I capture
@@ -477,7 +477,9 @@
           </p>
 
           <a href="" class="insta-link">Follow me on IG</a>
-           <picture>
+          </div>
+          
+          <picture>
             <source
               srcset="./images/insta-1440.jpg 1x, ./images/insta-1440-2x.jpg 2x"
               media="(min-width: 1440px)"
@@ -487,49 +489,81 @@
               media="(min-width: 768px)"
             />
             <source
-              srcset="./images/insta-360.jpg 1x, ./images/insta-360-2x.jpg 2x"
+              srcset="./images/phil-img-360.jpg 1x, ./images/phil-360-2x.jpg 2x"
               media="(min-width: 360px)"
             />
-            
-            <img src="./images/insta-360.jpg" alt="insta" width="720" height="600" class="insta-bg-img" />
+
+            <img
+              src="./images/phil-img-360.jpg"
+              alt="insta"
+              width="720"
+              height="600"
+              class="insta-bg-img"
+            />
           </picture>
         </div>
       </section>
-      <section class="insta-bg-img">
+      <!-- <section class="insta-bg-img">
         <picture>
-            <source
-              srcset="./images/phil-img-360.jpg 1x, ./images/phil-360-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-        <img src="./images/phil-img-360.jpg" alt="circle" width="360" height="450" class="insta-bg-img" />
-        </picture>
+          <source
+            srcset="./images/phil-img-360.jpg 1x, ./images/phil-360-2x.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <img
+            src="./images/phil-img-360.jpg"
+            alt="circle"
+            width="360"
+            height="450"
+            class="insta-bg-img"
+          />
+        </picture> -->
       </section>
       <section class="dribbble">
         <div class="container drib-container">
-         
-            
-              <h2 class="drib-title">Dribbble</h2>
+          <h2 class="drib-title">Dribbble</h2>
           <p class="drib-text">
             Each dribbble shot is made with love and care. Do check out my work
             on Dribbble. Likes and comments are appreciated.
           </p>
           <a href="" class="drib-link">Follow me on Dribbble</a>
-            
-           
-              <button type="button" class="drib-btn">
+          <div class="drib-wrap">
+            <button type="button" class="drib-btn">
+              <svg class="drib-btn-icon" width="58" height="58">
+                <use href="./images/icons.svg#icon-drib-point"></use>
+              </svg>
+            </button>
+            <picture>
+              <source
+                srcset="./images/drib-360.jpg 1x, ./images/drib-360-2x.jpg 2x"
+                media="(min-width: 360px)"
+              />
+              <source
+                srcset="./images/drib-1440.jpg 1x, ./images/drib-1440-2x.jpg 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="./images/drib-768.jpg 1x, ./images/drib-768-2x.jpg 2x"
+                media="(min-width: 768px)"
+              />
+
+              <img
+                src="./images/drib-360.jpg"
+                alt="dribbble"
+                width="1076"
+                height="640"
+                class="drib-img"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="drib-bg-img">
+        <div class="container">
+           <button type="button" class="drib-btn">
             <svg class="drib-btn-icon" width="58" height="58">
               <use href="./images/icons.svg#icon-drib-point"></use>
             </svg>
-          </button>
           <picture>
-            <source
-              srcset="./images/drib-1440.jpg 1x, ./images/drib-1440-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-            <source
-              srcset="./images/drib-768.jpg 1x, ./images/drib-768-2x.jpg 2x"
-              media="(min-width: 768px)"
-            />
             <source
               srcset="./images/drib-360.jpg 1x, ./images/drib-360-2x.jpg 2x"
               media="(min-width: 360px)"
@@ -537,144 +571,156 @@
             <img
               src="./images/drib-360.jpg"
               alt="dribbble"
-              width="1076"
-              height="640"
-              class="drib-img"
+              width="360"
+              height="450"
+              class="drib-img-bg"
             />
           </picture>
-          
-          
         </div>
-      </section>
-      <section class="drib-bg-img">
-        <div class="container">
-          <img
-            src="./images/drib-360.jpg"
-            alt="dribbble"
-            width="1076"
-            height="640"
-            class="drib-img"
-          />
-          </div>
-          
-        </div>
-      </section>
+      </section> -->
       <section class="reviews">
         <div class="container">
           <div class="reviews-wrap">
-        <div class="reviews-title-wrap">
-           <h2 class="review-title">This is what people say about me</h2>
-          <p class="review-text">
-            Here are a few lines from people who I have worked with over the
-            past 8+ years in my design career.
-          </p>
-          <a href="" class="review-link">See all testimonials</a>
-        </div>
-         <div class="reviews-image-wrap">
-          <ul class="review-list">
-            <li class="review-item">
-              <pictre>
-            <source
-              srcset="./images/review-1-1440.jpg 1x, ./images/review-1-1440-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-            <source
-              srcset="./images/review-1-768.jpg 1x, ./images/review-1-768-2x.jpg 2x"
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="./images/review-1-360.jpg 1x, ./images/review-1-360-2x.jpg 2x"
-              media="(min-width: 360px)"
-            />
-           <img
-                src="./images/review-1-360.jpg"
-                alt="laptop"
-                width="636"
-                height="360"
-                class="review-img"
-              />
-               </pictre>
-              
-              <div class="review-wrap">
-                <h3 class="review-subtitle">
-                  ‘’Robin is one of the best designers I have worked with in my
-                  entire life. He is a designer who is very capable of taking up
-                  complex projects and delivers impeccable design.’’
-                </h3>
-                <h4 class="review-name">Richard Owens</h4>
-                <p class="review-company">CEO, Company 1</p>
-              </div>
-            </li>
-            <li class="review-item">
-               <picture>
-            <source
-              srcset="./images/review-2-1440.jpg 1x, ./images/review-2-1440-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-            <source
-              srcset="./images/review-2-768.jpg 1x, ./images/review-2-768-2x.jpg 2x"
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="./images/review-2-360.jpg 1x, ./images/review-2-360-2x.jpg 2x"
-              media="(min-width: 360px)"
-            />
-             <img
-                src="./images/review-2-360.jpg"
-                alt="laptop"
-                width="636"
-                height="360"
-                class="review-img"
-              />
-          </picture>
-             
-              <div class="review-wrap">
-                <h3 class="review-subtitle">
-                  ‘’I think Robin has an incredible gift. It has been an
-                  absolute pleasure to work with a designer of this caliber.’’
-                </h3>
-                <h4 class="review-name">Emily Parker</h4>
-                <p class="review-company">CEO, Company 2</p>
-              </div>
-            </li>
-            <li class="review-item">
-               <picture>
-            <source
-              srcset="./images/review-3-1440.jpg 1x, ./images/review-3-1440-2x.jpg 2x"
-              media="(min-width: 1440px)"
-            />
-            <source
-              srcset="./images/review-3-768.jpg 1x, ./images/review-3-768-2x.jpg 2x"
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="./images/review-3-360.jpg 1x, ./images/review-3-360-2x.jpg 2x"
-              media="(min-width: 360px)"
-            />
-             <img 
-                src="./images/review-3-360.jpg"
-                alt="laptop"
-                width="636"
-                height="360"
-                class="review-img"
-               />
-          </picture>
-            
-              <div class="review-wrap">
-                <h3 class="review-subtitle">
-                  ‘’All I can say that, Robin is a phenomenal designer. The
-                  wavelength at which he thinks is astoundaing. I love the
-                  focus, passion and attention to detial in the design.’’
-                </h3>
-                <h4 class="review-name">Vincent Rudd</h4>
-                <p class="review-company">CEO, Company 3</p>
-              </div>
-            </li>
-          </ul>
-         </div>
-          
+            <div class="reviews-title-wrap">
+              <h2 class="review-title">This is what people say about me</h2>
+              <p class="review-text">
+                Here are a few lines from people who I have worked with over the
+                past 8+ years in my design career.
+              </p>
+              <a href="" class="review-link">See all testimonials</a>
+            </div>
+            <div class="reviews-image-wrap">
+              <ul class="review-list">
+                <li class="review-item">
+                  <pictre>
+                    <source
+                      srcset="
+                        ./images/review-1-1440.jpg    1x,
+                        ./images/review-1-1440-2x.jpg 2x
+                      "
+                      media="(min-width: 1440px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-1-768.jpg    1x,
+                        ./images/review-1-768-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-1-360.jpg    1x,
+                        ./images/review-1-360-2x.jpg 2x
+                      "
+                      media="(min-width: 360px)"
+                    />
+                    <img
+                      src="./images/review-1-360.jpg"
+                      alt="laptop"
+                      width="636"
+                      height="360"
+                      class="review-img"
+                    />
+                  </pictre>
+
+                  <div class="review-wrap">
+                    <h3 class="review-subtitle">
+                      ‘’Robin is one of the best designers I have worked with in
+                      my entire life. He is a designer who is very capable of
+                      taking up complex projects and delivers impeccable
+                      design.’’
+                    </h3>
+                    <h4 class="review-name">Richard Owens</h4>
+                    <p class="review-company">CEO, Company 1</p>
+                  </div>
+                </li>
+                <li class="review-item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/review-2-1440.jpg    1x,
+                        ./images/review-2-1440-2x.jpg 2x
+                      "
+                      media="(min-width: 1440px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-2-768.jpg    1x,
+                        ./images/review-2-768-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-2-360.jpg    1x,
+                        ./images/review-2-360-2x.jpg 2x
+                      "
+                      media="(min-width: 360px)"
+                    />
+                    <img
+                      src="./images/review-2-360.jpg"
+                      alt="laptop"
+                      width="636"
+                      height="360"
+                      class="review-img"
+                    />
+                  </picture>
+
+                  <div class="review-wrap">
+                    <h3 class="review-subtitle">
+                      ‘’I think Robin has an incredible gift. It has been an
+                      absolute pleasure to work with a designer of this
+                      caliber.’’
+                    </h3>
+                    <h4 class="review-name">Emily Parker</h4>
+                    <p class="review-company">CEO, Company 2</p>
+                  </div>
+                </li>
+                <li class="review-item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/review-3-1440.jpg    1x,
+                        ./images/review-3-1440-2x.jpg 2x
+                      "
+                      media="(min-width: 1440px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-3-768.jpg    1x,
+                        ./images/review-3-768-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/review-3-360.jpg    1x,
+                        ./images/review-3-360-2x.jpg 2x
+                      "
+                      media="(min-width: 360px)"
+                    />
+                    <img
+                      src="./images/review-3-360.jpg"
+                      alt="laptop"
+                      width="636"
+                      height="360"
+                      class="review-img"
+                    />
+                  </picture>
+
+                  <div class="review-wrap">
+                    <h3 class="review-subtitle">
+                      ‘’All I can say that, Robin is a phenomenal designer. The
+                      wavelength at which he thinks is astoundaing. I love the
+                      focus, passion and attention to detial in the design.’’
+                    </h3>
+                    <h4 class="review-name">Vincent Rudd</h4>
+                    <p class="review-company">CEO, Company 3</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-         
         </div>
       </section>
       <section class="photography">
