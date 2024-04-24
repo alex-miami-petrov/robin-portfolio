@@ -804,6 +804,18 @@ button {
   .work-text {
     width: 620px;
   }
+
+  .instagram {
+    padding: 80px 0;
+    background-image: url(../images/phil-768.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+
+  .insta-title {
+    font-size: 55px;
+  }
 }
 
 /* DESKTOP */
@@ -973,9 +985,11 @@ button {
   }
 
   .work-link-btn {
+    position: absolute;
+    left: 64%;
+    bottom: -321%;
+    transform: translate(-5%, -100%);
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.5;
@@ -1010,5 +1024,10 @@ button {
     position: absolute;
     transform: translate(-50%, 73%);
     left: 73%;
+    margin-bottom: 72px;
+  }
+
+  .instagram {
+    padding: 120px 0;
   }
 }
