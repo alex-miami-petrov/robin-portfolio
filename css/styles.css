@@ -848,23 +848,28 @@ button {
   }
 
   .review-text {
-    max-width: 346px;
+    max-width: 332px;
   }
 
   .review-subtitle {
     max-width: 269px;
   }
 
-  /* .review-list {
+  .reviews-wrap {
     display: flex;
-    flex-direction: column;
-  } */
+    gap: 24px;
+  }
 
-  /* .review-wrap {
-    display: flex;
-    flex-direction: row;
-    
-  } */
+  .reviews-title-wrap {
+  }
+
+  .reviews-image-wrap {
+    max-width: 332px;
+  }
+
+  .review-item:first-child {
+    margin-top: 0;
+  }
 }
 
 /* DESKTOP */
