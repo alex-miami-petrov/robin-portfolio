@@ -88,6 +88,7 @@ button {
 
 .hero-img {
   margin-bottom: 48px;
+  max-width: 750px;
 }
 .hero-title {
   font-weight: 700;
@@ -248,7 +249,7 @@ button {
 }
 .skill-comp-btn {
   border: 0.5px solid #8491a0;
-  border-left: none;
+  /* border-left: none; */
   width: 180px;
   height: 140px;
   background-color: #000;
@@ -1130,7 +1131,7 @@ button {
   .work-link-btn {
     position: absolute;
     left: 64%;
-    bottom: -321%;
+    /* bottom: -321%; */
     transform: translate(-5%, -100%);
     display: flex;
     font-weight: 700;
